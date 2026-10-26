@@ -1,0 +1,14 @@
+{
+  "name": "luminal-operadora",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Operadora virtual com Free SMS gratuito e vitalício (demonstração), numeração universal de 47 dígitos e número convencional brasileiro",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.9"
+  }
+}
